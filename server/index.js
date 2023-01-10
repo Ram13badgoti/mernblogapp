@@ -44,7 +44,7 @@ app.use("/server/categories", categoryRoute);
 
 if ( process.env.NODE_ENV == "production"){
 
-  const path = require("path");
+
 
   app.get("/", (req, res) => {
     app.use(express.static(path.resolve(__dirname, 'blogapp', 'build')));
