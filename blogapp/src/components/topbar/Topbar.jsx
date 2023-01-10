@@ -4,7 +4,7 @@ import { Context } from "../../context/Context.js";
 import "./Topbar.css";
 
 export default function Topbar() {
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://mernblogappbackend.onrender.com/images/";
   const { user, dispatch } = useContext(Context);
   // console.log(user);
   const handleLOGOUT = (e) => {
